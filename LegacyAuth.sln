@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9D226CA2-7662-4224-B760-49251C861260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyAuth.Api", "src\LegacyAuth.Api\LegacyAuth.Api.csproj", "{2EC57C62-240E-4A1F-A93A-52F2099BCFD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D2F3D467-8D2E-44D2-82D0-84B9DE3D50F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyAuth.Tests", "tests\LegacyAuth.Tests\LegacyAuth.Tests.csproj", "{3A0A8B83-F26B-4934-BFE6-F38BC179B9F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EC57C62-240E-4A1F-A93A-52F2099BCFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC57C62-240E-4A1F-A93A-52F2099BCFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC57C62-240E-4A1F-A93A-52F2099BCFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC57C62-240E-4A1F-A93A-52F2099BCFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0A8B83-F26B-4934-BFE6-F38BC179B9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0A8B83-F26B-4934-BFE6-F38BC179B9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0A8B83-F26B-4934-BFE6-F38BC179B9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0A8B83-F26B-4934-BFE6-F38BC179B9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EC57C62-240E-4A1F-A93A-52F2099BCFD5} = {9D226CA2-7662-4224-B760-49251C861260}
+		{3A0A8B83-F26B-4934-BFE6-F38BC179B9F4} = {D2F3D467-8D2E-44D2-82D0-84B9DE3D50F6}
+	EndGlobalSection
+EndGlobal
